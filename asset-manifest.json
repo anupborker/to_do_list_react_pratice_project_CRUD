@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/to_do_list_react_pratice_project_CRUD/static/css/main.abd64e84.css",
+    "main.js": "/to_do_list_react_pratice_project_CRUD/static/js/main.6a91bbda.js",
+    "index.html": "/to_do_list_react_pratice_project_CRUD/index.html",
+    "main.abd64e84.css.map": "/to_do_list_react_pratice_project_CRUD/static/css/main.abd64e84.css.map",
+    "main.6a91bbda.js.map": "/to_do_list_react_pratice_project_CRUD/static/js/main.6a91bbda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.6a91bbda.js"
+  ]
+}
