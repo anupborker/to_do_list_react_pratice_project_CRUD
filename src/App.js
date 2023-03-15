@@ -1,6 +1,7 @@
 
 import './App.css';
 import { useState } from "react";
+import { Task } from "./Task"
 
 function App() {
   const[todolist,setTodolist] = useState([]);
@@ -11,16 +12,24 @@ function App() {
    }
 
    const addNewTask = () =>{
-     setTodolist([...todolist,newTask]);
+    const task = {
+      id: todolist.length ===  0 ? 1 : todolist[todolist.length - 1].id + 1,
+      name: newTask,
+      complete: false
+    }
+     setTodolist([...todolist,task]);
    }
 
-   const deleteTask = (taskName) =>{
+   const deleteTask = (id) =>{
     const newTodoList1 = todolist.filter((task)=>{
-      if(task === taskName){
+      if(id === task.id  ){
         return false;
       }else{
         return true;
       }
+      const newComplete = todolist.map((task)=>{
+        {task.complete && <span style={{color:"green"}}>{task.name}</span> }
+      });
       
     }); setTodolist(newTodoList1);
 
@@ -35,10 +44,7 @@ function App() {
      <div className="list">
       {todolist.map((task)=>{
         return (
-          <div>
-        <h1>{task}</h1>
-        <button onClick={()=> deleteTask(task)}>X</button>
-        </div>
+         <Task id={task.id}  name={task.name} deleteTask={deleteTask}   />
         );
       }
       )}
