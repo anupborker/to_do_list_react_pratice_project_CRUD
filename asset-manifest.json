@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/to_do_list_react_pratice_project_CRUD/static/css/main.abd64e84.css",
-    "main.js": "/to_do_list_react_pratice_project_CRUD/static/js/main.44ee8c1a.js",
+    "main.js": "/to_do_list_react_pratice_project_CRUD/static/js/main.359b954a.js",
     "index.html": "/to_do_list_react_pratice_project_CRUD/index.html",
     "main.abd64e84.css.map": "/to_do_list_react_pratice_project_CRUD/static/css/main.abd64e84.css.map",
-    "main.44ee8c1a.js.map": "/to_do_list_react_pratice_project_CRUD/static/js/main.44ee8c1a.js.map"
+    "main.359b954a.js.map": "/to_do_list_react_pratice_project_CRUD/static/js/main.359b954a.js.map"
   },
   "entrypoints": [
     "static/css/main.abd64e84.css",
-    "static/js/main.44ee8c1a.js"
+    "static/js/main.359b954a.js"
   ]
 }
